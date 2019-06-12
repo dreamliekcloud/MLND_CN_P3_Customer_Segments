@@ -15035,7 +15035,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>回答:</strong> K-Means优点是：计算速度快,容易理解；但缺点主要是需要提前确定K值，对异常值极度敏感。高斯混合模型聚类算法的优点是聚类输出的信息量更大，理论上可以拟合任何连续的概率密度函数。我会选高斯混合模型，因为经过log变换后在各个维度都呈现了正太分布的特性。而且不需要指定具体种类个数。</p>
+<p><strong>回答:</strong> K-Means优点是：计算速度快,容易理解；但缺点主要是需要提前确定K值，而且有的时候分类跟点的初始化的位置有关，当K个点的初始化位置不当的时候，分类效果并不好，且对异常值极度敏感。高斯混合模型聚类算法的优点是聚类输出的信息量更大，理论上可以拟合任何连续的概率密度函数。我会选高斯混合模型，因为高斯模型不需要每个特征都满足高斯分布。而且不需要指定具体种类个数。</p>
 
 </div>
 </div>
